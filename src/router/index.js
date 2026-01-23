@@ -11,7 +11,7 @@ const router = createRouter({
       path: '/drinks',
       name: 'drinks',
       beforeEnter() {
-        window.location.href = `${import.meta.env.BASE_URL}Karte_Pallas.pdf`
+        window.location.replace(`${import.meta.env.BASE_URL}Karte_Pallas.pdf`)
       },
     },
     { path: '/impressum', name: 'impressum', component: ImpressumPage },

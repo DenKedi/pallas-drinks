@@ -6,7 +6,7 @@
         <p class="hero-subtitle theme-text-secondary pallas-subtitle">
             Everybody Welcome
         </p>
-        <RouterLink class="glass-button" to="/drinks">PALLAS.DRINKS</RouterLink>
+        <a class="glass-button" :href="pdfUrl">PALLAS.DRINKS</a>
       </div>
     </section>
     <FooterSection />
@@ -14,11 +14,12 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
 import MainLayout from '../layouts/MainLayout.vue'
 import FooterSection from '../components/sections/FooterSection.vue'
 import backgroundImage from '../assets/pictures/sitzecke.webp'
 import logoImage from '../assets/icons/Pallas_Logo_II.svg'
+
+const pdfUrl = `${import.meta.env.BASE_URL}Karte_Pallas.pdf`
 </script>
 
 <style scoped>
