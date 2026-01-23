@@ -4,7 +4,7 @@
       <div class="hero-content">
         <img :src="logoImage" alt="Pallas Logo" class="hero-logo" />
         <p class="hero-subtitle theme-text-secondary pallas-subtitle">
-          Hier entsteht unsere neue Pallas.World Website
+          Unsere neue Website befindet sich gerade im Aufbau. Du findest hier aber schon unser neues Menü.
         </p>
         <RouterLink class="glass-button" to="/drinks">PALLAS.DRINKS</RouterLink>
       </div>
