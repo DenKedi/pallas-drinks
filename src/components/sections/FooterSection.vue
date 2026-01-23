@@ -10,7 +10,16 @@ import { RouterLink } from 'vue-router'
           <h4 class="theme-text-primary">PALLAS.WORLD</h4>
           <p class="theme-text-secondary">Everybody Welcome</p>
           <div class="footer-address theme-text-secondary">
-            <p>Neuer Pferdemarkt 13, 20359 Hamburg, Germany</p>
+            <p>
+              <a
+                href="https://maps.app.goo.gl/uYQ53QNaTWLpzUDdA"
+                target="_blank"
+                rel="noreferrer"
+                class="footer-link theme-text-secondary"
+              >
+                Neuer Pferdemarkt 13, 20359 Hamburg, Germany
+              </a>
+            </p>
           </div>
         </div>
 

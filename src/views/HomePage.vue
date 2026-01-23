@@ -4,7 +4,7 @@
       <div class="hero-content">
         <img :src="logoImage" alt="Pallas Logo" class="hero-logo" />
         <p class="hero-subtitle theme-text-secondary pallas-subtitle">
-          Unsere neue Website befindet sich gerade im Aufbau. Du findest hier aber schon unser neues Menü.
+            Everybody Welcome
         </p>
         <RouterLink class="glass-button" to="/drinks">PALLAS.DRINKS</RouterLink>
       </div>
@@ -51,7 +51,7 @@ import logoImage from '../assets/icons/Pallas_Logo_II.svg'
 
 .hero-content {
   text-align: center;
-  padding: 4rem 3rem;
+  padding: 3rem 2.5rem;
   max-width: 800px;
   z-index: 3;
   border-radius: 4px;
@@ -62,9 +62,9 @@ import logoImage from '../assets/icons/Pallas_Logo_II.svg'
 
 .hero-logo {
   width: 100%;
-  max-width: clamp(300px, 50vw, 550px);
+  max-width: clamp(320px, 60vw, 700px);
   height: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   filter: brightness(1) drop-shadow(0 0 40px rgba(255, 255, 255, 0.15));
   animation: logoFloat 6s ease-in-out infinite;
 }
@@ -92,7 +92,7 @@ import logoImage from '../assets/icons/Pallas_Logo_II.svg'
 }
 
 .glass-button {
-  margin-top: 2.5rem;
+  margin-top: 1.75rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
